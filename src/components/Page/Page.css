@@ -1,0 +1,55 @@
+.page__container {
+    display: block;
+    margin: 20px 0px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.page__label {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.page__year {
+    font-size: 16px;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+.page__article {
+    max-width: 490px;
+    width: 100%;
+}
+
+.page__statistics img,
+.page__statistics p {
+    height: 25px;
+    justify-content: flex-end;
+    line-height: 25px;
+}
+
+.page__reviews,
+.page__comments {
+    display: flex;
+}
+
+.page__hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.page__footer {
+    margin-top: 10px;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}

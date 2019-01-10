@@ -1,0 +1,16 @@
+.navigation__ul {
+    height: 30px;
+    vertical-align: middle;
+    margin: 0;
+    padding-top:10px;
+}
+
+.navigation__li {
+    margin-right:10px;
+    display: inline;
+}
+
+.navigation__li:not(:last-child) {
+    padding-right: 10px;
+    border-right: solid 1px #000000;
+}
